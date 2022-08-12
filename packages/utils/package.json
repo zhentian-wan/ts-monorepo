@@ -8,9 +8,12 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
-    "build": "tsc -b .",
-    "test": "jest",
-    "lint": "eslint src --ext js,ts"
+    "build": "scripty",
+    "test": "scripty",
+    "lint": "scripty"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
   },
   "dependencies": {
     "date-fns": "^2.29.1",

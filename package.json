@@ -7,10 +7,27 @@
   "license": "BSD-2-Clause",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "build": "scripty",
+    "test": "scripty",
+    "lint": "scripty",
+    "clean": "scripty"
+  },
+  "scripty": {
+    "path": "./scripts/workspace"
   },
   "volta": {
     "node": "16.14.2",
     "yarn": "1.22.18"
-  }
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "eslint": "^8.21.0",
+    "lerna": "^5.4.1",
+    "rimraf": "^3.0.2",
+    "scripty": "^2.1.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
