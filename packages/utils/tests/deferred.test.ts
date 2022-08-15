@@ -8,6 +8,7 @@ describe("Deferred tests", function () {
     expect(typeof d.reject).toBe("function");
     expect(d.promise).toBeInstanceOf(Promise);
   });
+  
   test("promise resolves when Deferred#resolve() is called", async () => {
     expect.assertions(2);
     const d = new Deferred<number>();
