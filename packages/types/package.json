@@ -2,7 +2,7 @@
   "name": "@shlack/types",
   "version": "0.0.4",
   "main": "dist/index.js",
-  "types": "dist/types.d.ts",
+  "types": "dist/index.d.ts",
   "publishConfig": {
     "access": "public"
   },

@@ -7,7 +7,7 @@
     "access": "public"
   },
   "scripts": {
-    "api-report": "echo ''",
+    "api-report": "scripity",
     "lint": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
     "build": "scripty",

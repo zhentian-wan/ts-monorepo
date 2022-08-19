@@ -23,7 +23,6 @@ export function isTypedArray<T>(
 /**
  * Check whether a given value is an {@link @shlack/types#ITeam}
  * @param arg - value to check
- * @beta
  *
  * @example
  * Here's an example of how to use this guard
@@ -43,7 +42,6 @@ export function isTeam(arg: any): arg is ITeam {
 /**
  * Check whether a given value is an {@link @shlack/types#IChannel}
  * @param arg - value to check
- * @beta
  */
 export function isChannel(arg: any): arg is IChannel {
   return (
@@ -57,7 +55,6 @@ export function isChannel(arg: any): arg is IChannel {
 /**
  * Check whether a given value is an {@link @shlack/types#IMessage}
  * @param arg - value to check
- * @beta
  */
 export function isMessage(arg: any): arg is IMessage {
   return (
