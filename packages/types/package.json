@@ -2,11 +2,12 @@
   "name": "@shlack/types",
   "version": "0.0.4",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types.d.ts",
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
+    "api-report": "scripity",
     "clean": "rimraf dist *.tsbuildinfo",
     "build": "scripty",
     "test": "scripty",
